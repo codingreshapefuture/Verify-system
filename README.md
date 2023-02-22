@@ -17,7 +17,7 @@ Each folder represents a subject, including learning materials, screenshots, lea
 
 ## Description
 
-> Trang chủ: https://www.crfnetwork.cyou/
+> Homepage: https://www.crfnetwork.cyou/
 >
 > Link: https://education.crfnetwork.cyou/
 
