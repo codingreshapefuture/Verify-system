@@ -12,8 +12,8 @@ Each folder represents a subject, including learning materials, screenshots, lea
 
 | ID | Code | Description | Title |
 | --- | --- | --- | --- |
-| 1 | CMS | Content Management System | Web design with CMS |
-| 2 | DBS | Database System | Database development with SQL Server |
+| 1 | [CMS](./CMS) | Content Management System | Web design with CMS |
+| 2 | [DBS](./DBS) | Database System | Database development with SQL Server |
 
 ## Description
 
