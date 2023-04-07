@@ -37,7 +37,12 @@
         <section class="certificate">
             <!-- add certificate image or iframe here -->
             <!-- <iframe src="./Green-Tech-CRF-New.pdf#toolbar=0" width="100%" height="575px"></iframe> -->
-            <embed src="./Green-Tech-CRF-New.pdf#toolbar=0" type="application/pdf">
+            <!-- <embed src="./Green-Tech-CRF-New.pdf#toolbar=0" type="application/pdf"> -->
+            <embed src="./Green-Tech-CRF-New.pdf#toolbar=0" type="application/pdf" id="certImg">
+            <div id="error-message" style="display: none;">
+                Error, could not load data. <br>
+                Parameters provided does not match our records. <br>
+            </div>
         </section>
         <section class="details">
             <h1>Course Title</h1>
@@ -53,16 +58,31 @@
                 imperdiet purus metus vel odio.</p>
             <!-- add school information here -->
             <div class="buttons">
-                <a href="#" class="download">
+                <button class="download">
                     <i class="fa fa-download"></i>
                     Download Certificate
-                </a>
-                <a href="https://www.facebook.com/your-page" target="_blank" class="share">
+                </button>
+                <button class="share">
                     <i class="fa fa-share"></i>
                     Share on Facebook
-                </a>
+                </button>
             </div>
         </section>
+        <div class="dialog">
+            <div class="dialog-content">
+                <div class="dialog-title">
+                    <h3>Title</h3>
+                    <i class="fa fa-times close"></i>
+                </div>
+                <div class="dialog-body">
+                    <p>Message here.</p>
+                    <form action="#">
+                        <input type="text" placeholder="Email Address" value="">
+                        <button type="button">Button</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer">
@@ -70,8 +90,21 @@
             <div class="infor">CRF Education - Coding Reshape Future Co. LTD</div>
         </div>
     </footer>
-    <script src="script.js"></script>
-
+    <script src="./render.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        // fetch('/datasheet.json')
+        //     .then(response => response.json())
+        //     .then(data => output(data))
+        // function output(testDatas) {
+            // Object.keys(testDatas).forEach(key => {
+            //     const testData = testDatas[key];
+            //     const dataBase64 = btoa(testData);
+            //     const output = dataBase64;
+            //     console.log(testData, output)
+            // });
+        // }
+    </script>
 </body>
 
 </html>

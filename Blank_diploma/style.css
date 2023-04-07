@@ -9,6 +9,10 @@
     display: block !important;
 }
 
+.hide {
+    display: none !important;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -145,6 +149,20 @@ main {
     height: 550px;
 }
 
+#error-message {
+    padding: 50px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 200%;
+}
+
+.dialog .close {
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
 .details {
     margin-top: 0;
     margin-bottom: 20px;
@@ -201,6 +219,66 @@ main {
     background-color: #2d4373;
 }
 
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.dialog-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    height: 250px;
+    animation: fadeIn 0.5s ease;
+}
+
+.dialog-title {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialog-body p {
+    margin: 20px 5px 15px;
+}
+
+.dialog-body form {
+    display: flex;
+    margin: 35px 0px;
+}
+
+.dialog-body form input {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #999;
+    font-size: 14px;
+    overflow-y: scroll;
+    height: 38px;
+}
+
+.dialog-body form button {
+    border: none;
+    background-color: #0e8bf1;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
@@ -214,15 +292,13 @@ footer {
     margin: 0 20px;
 }
 
-/* keyframe fade down */
-@keyframes fadeDown {
+/* keyframe fade in */
+@keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-50px);
     }
     to {
         opacity: 1;
-        transform: translateY(0);
     }
 }
 
@@ -261,8 +337,8 @@ footer {
         position: absolute;
         top: 50px;
         right: 0;
-        /* animation fadedown */
-        animation: fadeDown 0.5s ease;
+        /* animation fadeIn */
+        animation: fadeIn 0.5s ease;
         display: none;
     }
 }
