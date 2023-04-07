@@ -1,6 +1,6 @@
 class CertData {
     constructor() {
-        this.dataUrl = '/datasheet.json';
+        this.dataUrl = './datasheet.json';
         this.validIds = [];
         this.urlParams = new URLSearchParams(window.location.search);
         this.id = this.urlParams.get('id');
