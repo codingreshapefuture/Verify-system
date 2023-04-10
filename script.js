@@ -27,13 +27,13 @@ function popupDialog(title, message, button) {
     document.querySelector('.dialog-body button').textContent = button
 }
 function shareURL() {
-    var currentURL = window.location.href;
+    var shareURL = window.location.href;
     // Hiển thị URL trên trang
-    dialogInput.value = currentURL;
+    dialogInput.value = shareURL;
     document.querySelector('.dialog-body button').addEventListener("click", () => {
         // Kiểm tra xem trình duyệt có hỗ trợ clipboard hay không
         if (navigator.clipboard) {
-            navigator.clipboard.writeText(currentURL)
+            navigator.clipboard.writeText(shareURL)
                 .then(function () {
                     alert("URL đã được sao chép vào clipboard!");
                 })
@@ -43,27 +43,18 @@ function shareURL() {
         }
     })
 }
-function downloadURL() {
-    var pathData = certData.renderData();
-    if (pathData == null) {
+async function downloadURL() {
+    var downloadURL = await certDataURL;
+    // Hiển thị URL trên trang
+    if (downloadURL == null) {
         dialogInput.value = '';
         return
+    } else {
+        dialogInput.value = downloadURL.slice(5);
     }
     document.querySelector('.dialog-body button').addEventListener("click", () => {
-        // Hiển thị URL trên trang
-        const currentPath = window.location.origin + window.location.pathname;
-        const folderPath = currentPath.substring(0, currentPath.lastIndexOf('/') + 1);
-        const fullPath = folderPath.endsWith('/') ? folderPath + pathData : folderPath + '/' + pathData;
-        // Fetch PDF và tạo một Blob object
-        fetch(fullPath)
-            .then(response => response.blob())
-            .then(blob => {
-                // Tạo một URL đến Blob
-                const url = URL.createObjectURL(blob);
-                dialogInput.value = url;
-                // Mở file PDF trong tab mới
-                window.open(url, '_blank');
-            });
+        // Mở file PDF trong tab mới
+        window.open(downloadURL, '_blank');
     })
 }
 // on click download button, toggle dialog

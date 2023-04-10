@@ -8,9 +8,9 @@
 
 | ID | Demonstrated | URL |
 | --- | --- | --- |
-| 1 | Hoàng Yến Nhi | [DBS-Hoang-Yen-Nhi](./Certificates/DBS-Hoang-Yen-Nhi.pdf) |
-| 2 | Lương Tuấn Anh | [DBS-Luong-Tuan-Anh](./Certificates/DBS-Luong-Tuan-Anh.pdf) |
-| 3 | Nguyễn Văn Linh | [DBS-Nguyen-Van-Linh](./Certificates/DBS-Nguyen-Van-Linh.pdf) |
-| 4 | Trần Mẫn Mẫn | [DBS-Tran-Man-Man](./Certificates/DBS-Tran-Man-Man.pdf) |
-| 5 | Trần Nhật Phi | [DBS-Tran-Nhat-Phi](./Certificates/DBS-Tran-Nhat-Phi.pdf) |
-| 6 | Vũ Anh Tuấn | [DBS-Vu-Anh-Tuan](./Certificates/DBS-Vu-Anh-Tuan.pdf) |
+| 1 | Hoàng Yến Nhi | [DBS-Hoang-Yen-Nhi](/index.html?id=DBS001) |
+| 2 | Lương Tuấn Anh | [DBS-Luong-Tuan-Anh](/index.html?id=DBS002) |
+| 3 | Nguyễn Văn Linh | [DBS-Nguyen-Van-Linh](/index.html?id=DBS003) |
+| 4 | Trần Mẫn Mẫn | [DBS-Tran-Man-Man](/index.html?id=DBS004) |
+| 5 | Trần Nhật Phi | [DBS-Tran-Nhat-Phi](/index.html?id=DBS005) |
+| 6 | Vũ Anh Tuấn | [DBS-Vu-Anh-Tuan](/index.html?id=DBS006) |

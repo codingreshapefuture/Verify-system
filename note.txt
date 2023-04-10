@@ -1,0 +1,19 @@
+tôi biết bạn rất hay quên haha và comment là điều không thể thiếu với mọi lập trình viên
+vậy nên tôi để lại note này cho bạn, cũng dành cho những kẻ tò mò đứng sau
+dù sao thì nếu bạn tìm được đến đây, chúc mừng bạn đã vén được tấm màn của sự thật
+---
+note that all of record is form as follow:
+Ex: "CMS001": "Q01TLURhby1UaGFuaC1Mb25nLnBkZg==",
++ course id: 3 words (CMS)
++ student number: 3 words (001)
++ base64 decoded: from the file name (example.pdf)
+---
+data paremter auto fill using a cutted string from base64 that allow people dont know about it
+---
+file name then it will be put into professional processing and the graft becomes the original path
+Ex: http://127.0.0.1:5500/CMS/Certificates/example.pdf
+---
+but before displaying on the source and downloading
+the data will be called again and converted to blob to avoid revealing the original path.
+---
+flag{CRF_Education_Obfuscate_Data}
