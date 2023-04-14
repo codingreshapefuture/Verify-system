@@ -1,4 +1,4 @@
-# CRF Education
+# [CRF Education](https://education.crfnetwork.cyou/verify.html)
 
 *CRF Edu repository for Education materials*
 
@@ -17,9 +17,7 @@ Each folder represents a subject, including learning materials, screenshots, lea
 
 ## Description
 
-> Homepage: https://www.crfnetwork.cyou/
->
-> Link: https://education.crfnetwork.cyou/
+> Xem chứng chỉ học viên: [https://education.crfnetwork.cyou/verify.html](https://education.crfnetwork.cyou/verify.html)
 
 CRF Edu thuộc CRF, chuyên đào tạo chuyên về lập trình và công nghệ thông tin, cung cấp các khóa học ngắn hạn nhằm giúp học viên nâng cao kỹ năng lập trình, tìm hiểu các công nghệ mới nhất và chuẩn bị cho sự nghiệp trong ngành công nghiệp CNTT.
 

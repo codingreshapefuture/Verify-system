@@ -8,8 +8,8 @@
 
 | ID | Demonstrated | URL |
 | --- | --- | --- |
-| 1 | Đào Thanh Long | [CMS-Dao-Thanh-Long](/index.html?id=CNS001) |
-| 2 | Huỳnh Thị Ngọc Hân | [CMS-Huynh-Thi-Ngoc-Han](/index.html?id=CNS002) |
-| 3 | Ngô Quỳnh Thảo Nguyên | [CMS-Ngo-Thao-Nguyen](/index.html?id=CNS003) |
-| 4 | Trần Mẫn Mẫn | [CMS-Tran-Man-Man](/index.html?id=CNS004) |
-| 5 | Vũ Anh Tuấn | [CMS-Vu-Anh-Tuan](/index.html?id=CNS005) |
+| 1 | Đào Thanh Long | [CMS-Dao-Thanh-Long](/verify.html?id=CNS001) |
+| 2 | Huỳnh Thị Ngọc Hân | [CMS-Huynh-Thi-Ngoc-Han](/verify.html?id=CNS002) |
+| 3 | Ngô Quỳnh Thảo Nguyên | [CMS-Ngo-Thao-Nguyen](/verify.html?id=CNS003) |
+| 4 | Trần Mẫn Mẫn | [CMS-Tran-Man-Man](/verify.html?id=CNS004) |
+| 5 | Vũ Anh Tuấn | [CMS-Vu-Anh-Tuan](/verify.html?id=CNS005) |
