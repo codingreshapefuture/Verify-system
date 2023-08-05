@@ -17,7 +17,8 @@ Each folder represents a subject, including learning materials, screenshots, lea
 | 3 | [LPI](./LPI) | Linux Professional Institute | System management with Linux server | Planned ❓ |
 | 4 | [GDD](./GDD) | Game Design & Development | Game design and development with Unity | Planned ❓ |
 | 5 | [CCP](./CPP) | C/C++ Programming | First step programming with C/C++ | Planned ❓ |
-| 6 | [SEC](./SEC) | Information Security | Walking around information security | Planned ❓ |
+| 6 | [SEC](./SEC) | Information Security | Walking around Information Security | Planned ❓ |
+| 7 | [NET](./NET) | Networking Fundamentals | Deep into the computer network | Planned ❓ |
 
 ## Description
 
