@@ -10,14 +10,14 @@ Each folder represents a subject, including learning materials, screenshots, lea
 
 ## Classes
 
-| ID | Code | Description | Title | Status ]
+| ID | Code | Description | Title | Status |
 | --- | --- | --- | --- | --- |
-| 1 | [CMS](./CMS) | Content Management System | Web design with CMS | Finished :heavy_check_mark: |
-| 2 | [DBS](./DBS) | Database System | Database development with SQL Server | Finish :heavy_check_mark: |
-| 3 | [LPI](./LPI) | Linux Professional Institute | System management with Linux server | Planned :x: |
-| 4 | [GDD](./GDD) | Game Design & Development | Game design and development with Unity | Planned :x: |
-| 5 | [CCP](./CPP) | C/C++ Programming | First step programming with C/C++ | Planned :x: |
-| 6 | [SEC](./SEC) | Information Security | Walking around information security | Planned :x: |
+| 1 | [CMS](./CMS) | Content Management System | Web design with CMS | Finished ✔ |
+| 2 | [DBS](./DBS) | Database System | Database development with SQL Server | Finish ✔ |
+| 3 | [LPI](./LPI) | Linux Professional Institute | System management with Linux server | Planned ❓ |
+| 4 | [GDD](./GDD) | Game Design & Development | Game design and development with Unity | Planned ❓ |
+| 5 | [CCP](./CPP) | C/C++ Programming | First step programming with C/C++ | Planned ❓ |
+| 6 | [SEC](./SEC) | Information Security | Walking around information security | Planned ❓ |
 
 ## Description
 
