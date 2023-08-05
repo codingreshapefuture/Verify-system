@@ -1,4 +1,4 @@
-k# [CRF Education](https://education.crfnetwork.cyou/verify.html)
+# [CRF Education](https://education.crfnetwork.cyou/verify.html)
 
 *CRF Edu repository for Education materials*
 
