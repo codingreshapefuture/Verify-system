@@ -19,6 +19,7 @@ Each folder represents a subject, including learning materials, screenshots, lea
 | 5 | [CCP](./CPP) | C/C++ Programming | First step programming with C/C++ | Planned ❓ |
 | 6 | [SEC](./SEC) | Information Security | Walking around Information Security | Planned ❓ |
 | 7 | [NET](./NET) | Networking Fundamentals | Deep into a Network System | Planned ❓ |
+| 8 | [PYT](./PYT) | Python Programming | Advanced programming with Python | Planned ❓ |
 
 ## Description
 
