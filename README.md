@@ -1,4 +1,4 @@
-# [CRF Education](https://education.crfnetwork.cyou/verify.html)
+k# [CRF Education](https://education.crfnetwork.cyou/verify.html)
 
 *CRF Edu repository for Education materials*
 
@@ -13,7 +13,7 @@ Each folder represents a subject, including learning materials, screenshots, lea
 | ID | Code | Description | Title | Status |
 | --- | --- | --- | --- | --- |
 | 1 | [CMS](./CMS) | Content Management System | Web design with CMS | Finished ✔ |
-| 2 | [DBS](./DBS) | Database System | Database development with SQL Server | Finish ✔ |
+| 2 | [DBS](./DBS) | Database System | Database development with SQL Server | Finished ✔ |
 | 3 | [LPI](./LPI) | Linux Professional Institute | System management with Linux server | Planned ❓ |
 | 4 | [GDD](./GDD) | Game Design & Development | Game design and development with Unity | Planned ❓ |
 | 5 | [CCP](./CPP) | C/C++ Programming | First step programming with C/C++ | Planned ❓ |
