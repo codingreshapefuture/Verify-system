@@ -1,0 +1,7 @@
+# Robots.txt from CRF Education
+# ---------------------------
+User-agent: *
+Allow: *
+Sitemap: https://education.crfnetwork.com/sitemap.xml
+# ---------------------------
+# Hello, what you found here
