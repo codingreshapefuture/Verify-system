@@ -3,7 +3,6 @@ name: Generate xml sitemap
 on:
   push:
     branches: [ main ]
-    paths: [ '**.html', '**.pdf' ]
 
 jobs:
   sitemap_job:
@@ -21,6 +20,7 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://education.crfnetwork.com/
+        include-pdf: true
 
     - name: Output stats
       run: |
