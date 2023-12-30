@@ -1,4 +1,4 @@
-# [CRF Education](https://education.crfnetwork.cyou/verify.html)
+# [CRF Education](https://education.crfnetwork.com/verify.html)
 
 *CRF Edu repository for Education materials*
 
@@ -23,9 +23,9 @@ Each folder represents a subject, including learning materials, screenshots, lea
 
 ## Description
 
-> Xem chứng chỉ học viên: [https://education.crfnetwork.cyou/verify.html](https://education.crfnetwork.cyou/verify.html)
+> Xem chứng chỉ học viên: [Verify](https://education.crfnetwork.com/verify.html)
 
-CRF Edu là một giải pháp online training thuộc [Coding Reshape Future Co. LTD](https://www.crfnetwork.cyou/), chúng tôi cung cấp những khóa học ngắn hạn, hình thức học tập hướng dự án (project-based) về tất cả lĩnh vực lập trình và công nghệ thông tin, nhằm giúp học viên nâng cao kỹ năng, hiểu biết và chuẩn bị hành trang trên con đường theo đuổi ước mơ ngành công nghiệp CNTT.
+CRF Edu là một giải pháp online training thuộc [Coding Reshape Future Co. LTD](https://www.crfnetwork.com/), chúng tôi cung cấp những khóa học ngắn hạn, hình thức học tập hướng dự án (project-based) về tất cả lĩnh vực lập trình và công nghệ thông tin, nhằm giúp học viên nâng cao kỹ năng, hiểu biết và chuẩn bị hành trang trên con đường theo đuổi ước mơ ngành công nghiệp CNTT.
 
 Với đội ngũ giảng viên giàu kinh nghiệm và am hiểu sâu sắc về các công nghệ hiện đại, CRF Education cam kết đem đến cho học viên những trải nghiệm học tập chất lượng và đáp ứng tốt nhu cầu của thị trường hiện nay.
 
