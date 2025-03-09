@@ -1,13 +1,57 @@
 {
-    "CMS001": "Q01TLURhby1UaGFuaC1Mb25nLnBkZg==",
-    "CMS002": "Q01TLUh1eW5oLVRoaS1OZ29jLUhhbi5wZGY=",
-    "CMS003": "Q01TLU5nby1UaGFvLU5ndXllbi5wZGY=",
-    "CMS004": "Q01TLVRyYW4tTWFuLU1hbi5wZGY=",
-    "CMS005": "Q01TLVZ1LUFuaC1UdWFuLnBkZg==",
-    "DBS001": "REJTLUhvYW5nLVllbi1OaGkucGRm",
-    "DBS002": "REJTLUx1b25nLVR1YW4tQW5oLnBkZg==",
-    "DBS003": "REJTLU5ndXllbi1WYW4tTGluaC5wZGY=",
-    "DBS004": "REJTLVRyYW4tTWFuLU1hbi5wZGY=",
-    "DBS005": "REJTLVRyYW4tTmhhdC1QaGkucGRm",
-    "DBS006": "REJTLVZ1LUFuaC1UdWFuLnBkZg=="
+    "CMS001": {
+        "courseTitle": "CMS - Content Management System",
+        "certifiedName": "Đào Thanh Long",
+        "certData": "Q01TLURhby1UaGFuaC1Mb25nLnBkZg=="
+    },
+    "CMS002": {
+        "courseTitle": "CMS - Content Management System",
+        "certifiedName": "Huỳnh Thị Ngọc Hân",
+        "certData": "Q01TLUh1eW5oLVRoaS1OZ29jLUhhbi5wZGY="
+    },
+    "CMS003": {
+        "courseTitle": "CMS - Content Management System",
+        "certifiedName": "Ngô Thảo Nguyên",
+        "certData": "Q01TLU5nby1UaGFvLU5ndXllbi5wZGY="
+    },
+    "CMS004": {
+        "courseTitle": "CMS - Content Management System",
+        "certifiedName": "Trần Mẫn Mẫn",
+        "certData": "Q01TLVRyYW4tTWFuLU1hbi5wZGY="
+    },
+    "CMS005": {
+        "courseTitle": "CMS - Content Management System",
+        "certifiedName": "Vũ Anh Tuấn",
+        "certData": "Q01TLVZ1LUFuaC1UdWFuLnBkZg=="
+    },
+    "DBS001": {
+        "courseTitle": "DBS - Database System",
+        "certifiedName": "Hoàng Yến Nhi",
+        "certData": "REJTLUhvYW5nLVllbi1OaGkucGRm"
+    },
+    "DBS002": {
+        "courseTitle": "DBS - Database System",
+        "certifiedName": "Lương Tuấn Anh",
+        "certData": "REJTLUx1b25nLVR1YW4tQW5oLnBkZg=="
+    },
+    "DBS003": {
+        "courseTitle": "DBS - Database System",
+        "certifiedName": "Nguyễn Văn Linh",
+        "certData": "REJTLU5ndXllbi1WYW4tTGluaC5wZGY="
+    },
+    "DBS004": {
+        "courseTitle": "DBS - Database System",
+        "certifiedName": "Trần Mẫn Mẫn",
+        "certData": "REJTLVRyYW4tTWFuLU1hbi5wZGY="
+    },
+    "DBS005": {
+        "courseTitle": "DBS - Database System",
+        "certifiedName": "Trần Nhật Phi",
+        "certData": "REJTLVRyYW4tTmhhdC1QaGkucGRm"
+    },
+    "DBS006": {
+        "courseTitle": "DBS - Database System",
+        "certifiedName": "Vũ Anh Tuấn",
+        "certData": "REJTLVZ1LUFuaC1UdWFuLnBkZg=="
+    }
 }

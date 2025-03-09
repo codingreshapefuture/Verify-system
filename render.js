@@ -36,7 +36,7 @@ class CertData {
     async renderPDF(url) {
         // Đặt workerSrc để tránh lỗi "Deprecated API usage"
         pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js";
-        
+
         const loadingTask = pdfjsLib.getDocument(url);
         loadingTask.promise.then(pdf => {
             pdf.getPage(1).then(page => {
@@ -70,12 +70,15 @@ class CertData {
     async renderData() {
         // Check if the ID is valid
         if (this.validIds.includes(this.codeId) && this.verifyData()) {
-            // Extract the image data from the data source file
+            // Extract the cert data and other info from the data source file
             const renderData = this.data[this.codeId];
+            // Cập nhật thông tin tiêu đề và mô tả chứng chỉ
+            document.getElementById("courseTitle").textContent = renderData.courseTitle;
+            document.getElementById("certifiedName").textContent = renderData.certifiedName;
             // Get final data string from course and id
-            const finalData = `${this.course.toUpperCase()}/Certificates/${atob(renderData)}`; // /CMS/Certificates/CMS-Dao-Thanh-Long.pdf
+            const finalData = `${this.course.toUpperCase()}/Certificates/${atob(renderData.certData)}`; // /<course>/Certificates/<cert-path>.pdf
             // Add the data parameter to the URL if it is not already present
-            const checkData = renderData.slice(-20, -5);
+            const checkData = renderData.certData.slice(-20, -5); // ?id=<uuid>&data=<encoded>
             if (this.urlParams.get('data') != checkData) {
                 this.urlParams.set("data", checkData)
                 window.location.search = this.urlParams;
