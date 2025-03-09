@@ -137,8 +137,9 @@ main {
 }
 
 .certificate {
+    position: relative;
     width: 70%;
-    min-height: 550px;
+    min-height: 300px;
     float: left;
     margin-right: 30px;
     border: 1px solid #ccc;
@@ -152,10 +153,14 @@ main {
 }
 
 #error-message {
-    padding: 50px 10px;
+    position: absolute;
+    width: 85%;
     text-align: center;
     font-size: 20px;
     line-height: 200%;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .dialog .close {
