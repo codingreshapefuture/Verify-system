@@ -29,7 +29,7 @@ class CertData {
             this.id = matches[2];
             return true;
         } else {
-            console.error("Code ID không hợp lệ!")
+            this.showCustomError("Xác minh thất bại, Code ID không đúng định dạng!")
             return false;
         }
     }
@@ -106,7 +106,6 @@ class CertData {
                 }
             } else {
                 // Display an error message if there is an error loading the data source file
-                this.error.style.display = 'block';
                 document.getElementById("pdfViewer").style.display = "none";
                 if (this.urlParams.get('data')) {
                     this.urlParams.delete('data');
@@ -130,8 +129,8 @@ class CertData {
     // Hàm hiển thị lỗi tùy chỉnh
     showCustomError(message) {
         this.error.style.display = 'block';
-        this.error.innerHTML = `<p>${message}</p>`;
         this.resource.style.display = 'none';
+        console.error(message)
     }
 }
 
