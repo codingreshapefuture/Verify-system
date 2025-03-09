@@ -3,9 +3,9 @@ vậy nên tôi để lại note này cho bạn, cũng dành cho những kẻ t�
 dù sao thì nếu bạn tìm được đến đây, chúc mừng bạn đã vén được tấm màn của sự thật
 ---
 note that all of record is form as follow:
-Ex: "CMS001": "Q01TLURhby1UaGFuaC1Mb25nLnBkZg==",
-+ course id: 3 words (CMS)
-+ student number: 3 words (001)
+Ex: "ITFB1005": "Q01TLURhby1UaGFuaC1Mb25nLnBkZg==",
++ course id: string and/or number (ITFB1)
++ student number: last 3 number (005)
 + base64 decoded: from the file name (example.pdf)
 ---
 data paremter auto fill using a cutted string from base64 that allow people dont know about it
