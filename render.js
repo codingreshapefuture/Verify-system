@@ -87,6 +87,15 @@ class CertData {
 
             // Dùng PDF.js để render file PDF
             this.renderPDF(fullPath);
+
+            // Fetch PDF và tạo một Blob object cho download
+            const response = await fetch(fullPath);
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            const blob = await response.blob();
+            this.certURL = URL.createObjectURL(blob);
+            return this.certURL;
         } else {
             // Display an error message if there is an error loading the data source file
             this.error.style.display = 'block';

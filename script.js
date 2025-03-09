@@ -44,6 +44,7 @@ function shareURL() {
     })
 }
 async function downloadURL() {
+    // Lấy cert download blob từ render
     var downloadURL = await certDataURL;
     // Hiển thị URL trên trang
     if (downloadURL == null) {
