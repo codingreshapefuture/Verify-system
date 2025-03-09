@@ -53,5 +53,40 @@
         "courseTitle": "DBS - Database System",
         "certifiedName": "Vũ Anh Tuấn",
         "certData": "REJTLVZ1LUFuaC1UdWFuLnBkZg=="
+    },
+    "ITFB1001": {
+        "courseTitle": "ITFB Gen 1 - Team Content",
+        "certifiedName": "Dương Trà Giang",
+        "certData": "SVRGQjEtRHVvbmctVHJhLUdpYW5nLnBkZg=="
+    },
+    "ITFB1002": {
+        "courseTitle": "ITFB Gen 1 - Team Design",
+        "certifiedName": "Hoàng Thanh Trúc",
+        "certData": "SVRGQjEtSG9hbmctVGhhbmgtVHJ1Yy5wZGY="
+    },
+    "ITFB1003": {
+        "courseTitle": "ITFB Gen 1 - Team Content",
+        "certifiedName": "Hoàng Việt Anh",
+        "certData": "SVRGQjEtSG9hbmctVmlldC1BbmgucGRm"
+    },
+    "ITFB1004": {
+        "courseTitle": "ITFB Gen 1 - Team HR",
+        "certifiedName": "Lại Quang Hiệp",
+        "certData": "SVRGQjEtTGFpLVF1YW5nLUhpZXAucGRm"
+    },
+    "ITFB1005": {
+        "courseTitle": "ITFB Gen 1 - Team Design",
+        "certifiedName": "Nguyễn Ngọc Hương Thảo",
+        "certData": "SVRGQjEtTmd1eWVuLU5nb2MtSHVvbmctVGhhby5wZGY="
+    },
+    "ITFB1006": {
+        "courseTitle": "ITFB Gen 1 - Team Content",
+        "certifiedName": "Phạm Hoàng Hiệp",
+        "certData": "SVRGQjEtUGhhbS1Ib2FuZy1IaWVwLnBkZg=="
+    },
+    "ITFB1007": {
+        "courseTitle": "ITFB Gen 1 - Team HR",
+        "certifiedName": "Trần Phương Anh",
+        "certData": "SVRGQjEtVHJhbi1QaHVvbmctQW5oLnBkZg=="
     }
 }
