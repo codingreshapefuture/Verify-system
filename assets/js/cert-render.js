@@ -4,7 +4,6 @@ class CertData {
         this.validIds = [];
         this.urlParams = new URLSearchParams(window.location.search);
         this.codeId = this.urlParams.get('id');
-        this.resource = document.getElementById('certImg');
         this.error = document.getElementById('error-message');
         this.data = null;
         this.course = '';
@@ -129,7 +128,6 @@ class CertData {
     // Hàm hiển thị lỗi tùy chỉnh
     showCustomError(message) {
         this.error.style.display = 'block';
-        this.resource.style.display = 'none';
         console.error(message)
     }
 }
