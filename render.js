@@ -33,12 +33,40 @@ class CertData {
         }
     }
 
+    async renderPDF(url) {
+        const loadingTask = pdfjsLib.getDocument(url);
+        loadingTask.promise.then(pdf => {
+            pdf.getPage(1).then(page => {
+                const canvas = document.getElementById("pdfViewer");
+                const context = canvas.getContext("2d");
+
+                // Lấy kích thước của section.certificate
+                const container = document.querySelector("section.certificate");
+                const containerWidth = container.clientWidth;
+
+                // Xác định tỷ lệ scale dựa trên container width
+                const viewport = page.getViewport({ scale: 1 });
+                const scale = containerWidth / viewport.width;
+                const scaledViewport = page.getViewport({ scale });
+
+                // Thiết lập kích thước canvas phù hợp với section.certificate
+                canvas.width = scaledViewport.width;
+                canvas.height = scaledViewport.height;
+
+                // Render PDF với kích thước đã điều chỉnh
+                const renderContext = { canvasContext: context, viewport: scaledViewport };
+                page.render(renderContext);
+            });
+        }).catch(error => {
+            console.error("Error rendering PDF:", error);
+            this.error.style.display = 'block';
+        });
+    }
+
     // Load the data source file and render the certificate image
     async renderData() {
         // Check if the ID is valid
         if (this.validIds.includes(this.codeId) && this.verifyData()) {
-            // Use Google Docs preview to avoid auto download PDF
-            const previewer = "https://docs.google.com/gview?embedded=true&url="
             // Extract the image data from the data source file
             const renderData = this.data[this.codeId];
             // Get final data string from course and id
@@ -53,21 +81,9 @@ class CertData {
             const currentPath = window.location.origin + window.location.pathname; // http://<url>/verify.html
             const folderPath = currentPath.substring(0, currentPath.lastIndexOf('/') + 1); // http://<url>/
             const fullPath = folderPath.endsWith('/') ? folderPath + finalData : folderPath + '/' + finalData;
-            // Fetch PDF và tạo một Blob object
-            // Render using google docs (work online only)
-            const response = await fetch(previewer+fullPath);
-            // Render raw data (work on local)
-            // const response = await fetch(fullPath);
-            if (!response.ok) {
-                throw new Error("Network response was not ok");
-            }
-            const blob = await response.blob();
-            // Tạo một URL đến Blob
-            this.certURL = URL.createObjectURL(blob);
-            // Display the appropriate certificate image
-            const source = this.certURL + '#toolbar=0';
-            this.resource.src = source;
-            return this.certURL;
+
+            // Dùng PDF.js để render file PDF
+            this.renderPDF(fullPath);
         } else {
             // Display an error message if there is an error loading the data source file
             this.error.style.display = 'block';
