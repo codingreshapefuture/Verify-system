@@ -163,6 +163,10 @@ main {
     transform: translateX(-50%);
 }
 
+.description {
+    text-align: justify;
+}
+
 .dialog .close {
     font-size: 20px;
     cursor: pointer;
