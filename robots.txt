@@ -1,7 +1,7 @@
-# Robots.txt from CRF Education
+# Robots.txt from CRF Verify System
 # ---------------------------
 User-agent: *
 Allow: *
-Sitemap: https://education.crfnetwork.com/sitemap.xml
+Sitemap: https://verify.crfnetwork.com/sitemap.xml
 # ---------------------------
 # Hello, what you found here
