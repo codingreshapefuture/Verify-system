@@ -128,7 +128,7 @@ class CertData {
     // Hàm hiển thị lỗi tùy chỉnh
     showCustomError(message) {
         this.error.style.display = 'block';
-        console.error(message)
+        console.log(message)
     }
 }
 
