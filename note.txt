@@ -16,4 +16,4 @@ Ex: http://127.0.0.1:5500/CMS/Certificates/example.pdf
 but before displaying on the source and downloading
 the data will be called again and converted to blob to avoid revealing the original path.
 ---
-flag{CRF_Education_Obfuscate_Data}
+flag{CRF_Verified_Obfuscate_Data}
