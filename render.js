@@ -37,10 +37,12 @@ class CertData {
     async renderData() {
         // Check if the ID is valid
         if (this.validIds.includes(this.codeId) && this.verifyData()) {
+            // Use Google Docs preview to avoid auto download PDF
+            const previewer = "https://docs.google.com/gview?embedded=true&url="
             // Extract the image data from the data source file
             const renderData = this.data[this.codeId];
             // Get final data string from course and id
-            const finalData = `${this.course.toUpperCase()}/Certificates/${atob(renderData)}`;
+            const finalData = `${this.course.toUpperCase()}/Certificates/${atob(renderData)}`; // /CMS/Certificates/CMS-Dao-Thanh-Long.pdf
             // Add the data parameter to the URL if it is not already present
             const checkData = renderData.slice(-20, -5);
             if (this.urlParams.get('data') != checkData) {
@@ -48,11 +50,14 @@ class CertData {
                 window.location.search = this.urlParams;
             }
             // Get the path to the certificate image
-            const currentPath = window.location.origin + window.location.pathname;
-            const folderPath = currentPath.substring(0, currentPath.lastIndexOf('/') + 1);
+            const currentPath = window.location.origin + window.location.pathname; // http://<url>/verify.html
+            const folderPath = currentPath.substring(0, currentPath.lastIndexOf('/') + 1); // http://<url>/
             const fullPath = folderPath.endsWith('/') ? folderPath + finalData : folderPath + '/' + finalData;
             // Fetch PDF và tạo một Blob object
-            const response = await fetch(fullPath);
+            // Render using google docs (work online only)
+            const response = await fetch(previewer+fullPath);
+            // Render raw data (work on local)
+            // const response = await fetch(fullPath);
             if (!response.ok) {
                 throw new Error("Network response was not ok");
             }
