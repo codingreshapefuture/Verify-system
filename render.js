@@ -34,6 +34,9 @@ class CertData {
     }
 
     async renderPDF(url) {
+        // Đặt workerSrc để tránh lỗi "Deprecated API usage"
+        pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js";
+        
         const loadingTask = pdfjsLib.getDocument(url);
         loadingTask.promise.then(pdf => {
             pdf.getPage(1).then(page => {
