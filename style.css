@@ -139,9 +139,9 @@ main {
 .certificate {
     position: relative;
     width: 70%;
-    min-height: 300px;
+    min-height: 400px;
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
     border: 1px solid #ccc;
 }
 
@@ -190,7 +190,7 @@ main {
 }
 
 .buttons {
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-around;
 }
@@ -312,6 +312,7 @@ footer {
 @media screen and (max-width: 880px) {
     .certificate {
         width: 100%;
+        min-height: 300px;
         float: none;
         margin-right: 0;
         margin-bottom: 20px;

@@ -102,7 +102,7 @@ class CertData {
         } else {
             // Display an error message if there is an error loading the data source file
             this.error.style.display = 'block';
-            this.resource.style.display = 'none';
+            document.getElementById("pdfViewer").style.display = "none";
             if (this.urlParams.get('data')) {
                 this.urlParams.delete('data');
                 var newUrl = `${window.location.pathname}?${this.urlParams.toString()}`;
