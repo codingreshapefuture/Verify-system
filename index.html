@@ -31,10 +31,9 @@
                 <li><a href="https://www.facebook.com/codingreshapefuture/">Liên hệ</a></li>
             </ul>
             <div class="search-container">
-                <form action="#">
-                    <input type="text" placeholder="Tìm kiếm ...">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+                <input type="text" id="searchInput" placeholder="Tìm kiếm Code ID, Course, Name,...">
+                <button type="button" id="searchButton"><i class="fa fa-search"></i></button>
+                <select id="searchResults" class="select-dropdown" size="5" style="display: none;"></select>
             </div>
         </nav>
         <div class="mobile-menu">
@@ -102,6 +101,7 @@
     </footer>
     <script src="./assets/js/cert-render.js"></script>
     <script src="./assets/js/handle-button.js"></script>
+    <script src="./assets/js/search-bar.js"></script>
 </body>
 <!-- Copyright by LTP 10/04/2023. All data is reversed -->
 
