@@ -2,7 +2,7 @@
 
 > Learning code: CMS - Content Management System
 
-![image](https://user-images.githubusercontent.com/90561566/209668186-0566cf19-fc02-4510-85d9-00ca7481bc36.png)
+![209668186-0566cf19-fc02-4510-85d9-00ca7481bc36](https://github.com/user-attachments/assets/3c249d17-69a0-40cf-a77b-6aa93771454d)
 
 ### Certificates
 
